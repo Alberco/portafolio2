@@ -1,0 +1,39 @@
+
+.fondoPrincipal {
+    background-image: url('../../public/fondoPrincipal.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fondoBoton{
+    background-image: url('../../public/btn_fondo.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imagen1 {
+    width: 200px;
+    height: 200px;
+    
+}
+@media (min-height: 840px) {
+    .imagen1 {
+        width: 300px;
+        height: 300px;
+    }
+}
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.02); }
+    to { transform: none; }
+}
+
+.fondo {
+    background-image: url('../../public/fondo1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
