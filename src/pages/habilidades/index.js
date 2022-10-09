@@ -9,9 +9,9 @@ function Habilidades() {
                 <meta name="description"/>
             </Head>
             <div className="h-full bg-base-200 rounded-lg my-2 ">
-                <section class="container sm:px-36 bg-gray-900 pt-10 mx-auto">
-                    <div class="flex flex-col text-center w-full">
-                        <h1 class="sm:text-4xl text-2xl title-font mb-4 text-white font-bold">Habilidades</h1>
+                <section className="container sm:px-36 bg-gray-900 pt-10 mx-auto">
+                    <div className="flex flex-col text-center w-full">
+                        <h1 className="sm:text-4xl text-2xl title-font mb-4 text-white font-bold">Habilidades</h1>
                     </div>
                     <article className="flex flex-col text-center px-24 sm:px-10">
                         <h2 className="sm:text-2xl text-xl py-2 inline sm:mx-62  text-center text-white font-semibold ">Lenguajes</h2>
