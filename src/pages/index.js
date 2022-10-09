@@ -10,7 +10,7 @@ export default function Home() {
         <title>Home</title>
         <meta name="description"/>
       </Head>
-        <div className="hero h-full  bg-gray-900 rounded-xl py-3 my-4 ">
+        <div className="hero h-screen  bg-gray-900 rounded-xl py-3 my-4 ">
             <div className="hero-content h-auto flex-col lg:flex-row-reverse justify-between">
               <div className='h-auto imagen1 sm:w-1/2 text-center fondo' >
                 <Image 
