@@ -10,15 +10,15 @@ export default function Home() {
         <title>Home</title>
         <meta name="description"/>
       </Head>
-        <div className="hero h-auto bg-gray-900 rounded-xl py-3 my-4 ">
+        <div className="hero h-screen bg-gray-900 rounded-xl py-10 my-6 ">
             <div className="hero-content h-auto flex-col lg:flex-row-reverse justify-between">
-              <div className='h-auto imagen1 sm:w-1/2 text-center fondo' >
+              <div className='h-full imagen1 sm:w-1/2 text-center fondo' >
                 <Image 
                   src={p}
                   layout={"responsive"}
                   className="rounded-lg shadow-2xl" />
               </div>
-              <div className='sm:w-1/2 h-auto px-3 my-4 sm:px-2 '>
+              <div className='sm:w-1/2 h-full px-3 my-4 sm:px-2 '>
                 <h1 className="text-lg sm:text-5xl font-bold text-center lg:text-start text-white">Soy Guillermo Alberco Capistrano</h1>
                 <p className="py-6 text-sm md:text-lg  lg:text-xl">
                   Estudiante de la carrera Ingenieria de Software , que busca su primer trabajo como programador para poder ganar experiencia desarrollado

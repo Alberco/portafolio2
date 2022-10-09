@@ -11,7 +11,7 @@ function Layout({ children }) {
     ]
     return ( 
         <div className='fondoPrincipal bg-black'>
-            <div className="container h-screen mx-auto px-4 py-2 fondoPrincipal">
+            <div className="container h-full mx-auto px-4 py-2 fondoPrincipal">
                 <Navbar list_url={list_url} />
                 { children }
                 <div className='border-4 border-transparent'>
